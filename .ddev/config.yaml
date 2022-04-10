@@ -1,4 +1,4 @@
-name: ddev-yii2-app-basic
+name: yii2-app-basic
 type: php
 docroot: ""
 php_version: "7.4"
@@ -7,7 +7,8 @@ router_http_port: "80"
 router_https_port: "443"
 xdebug_enabled: false
 additional_hostnames: []
-additional_fqdns: ["yii2-basic.local"]
+additional_fqdns:
+- yii2-basic.local
 database:
   type: mysql
   version: "8.0"
